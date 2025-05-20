@@ -1,21 +1,98 @@
-A cutting-edge, browser-based 3D experience that combines physics-driven interactions, GSAP-powered animations, and neon-glow, glassmorphic UI elements—letting users freely explore, manipulate, and interact with 3D objects in real time. Built with React Three Fiber, Three.js, and Tailwind CSS, it delivers high-performance visuals and a sleek, immersive interface ready for the web.
-![dark](https://github.com/user-attachments/assets/446669e2-7d99-4cd0-9d23-64fa9ca7fd57)
-🚀 Features
+🚀 Flux‑3d‑canvas
 
-Immersive 3D Canvas: Powered by Three.js and React Three Fiber for high-performance rendering.
+![dark](https://github.com/user-attachments/assets/050a065a-536f-4cb2-9881-61df5d7fa5b5)
 
-Physics Interactions: Realistic gravity and collisions via @react-three/cannon (Ammo.js).
+A cutting-edge, browser-based 3D experience featuring physics-driven interactions, GSAP-powered animations, and glassmorphic UI elements with dynamic neon accents. Explore, manipulate, and interact with 3D objects in real time—all in a sleek, immersive interface built on React Three Fiber, Three.js, and Tailwind CSS.
 
-GSAP Animations: Smooth, elastic animations for objects on mount and user actions.
+🔖 Table of Contents
 
-Custom Inflated Shader: Organic vertex displacement shader for an “inflated” look.
+🌟 Features
 
-Neon & Glassmorphism UI: Tailwind CSS modern themes with backdrop-filter and neon outlines.
+✨ Screenshots
 
-PBR Lighting & HDR Environment: Realistic ambient, directional, and spot lights, plus HDR reflections.
+💻 Installation & Usage
 
-Orbit & Fly Controls: Seamless camera navigation with both orbit and fly modes.
+⚙️ Configuration
 
-Light & Dark Modes: Toggleable themes with screenshots provided.
-![dark](https://github.com/user-attachments/assets/446669e2-7d99-4cd0-9d23-64fa9ca7fd57)
-![light](https://github.com/user-attachments/assets/d641070f-a9ec-44a3-b823-e71bfc914221)
+📦 Project Structure
+
+🚀 Scripts
+
+🛠 Tech Stack
+
+🤝 Contributing
+
+📄 License
+
+🌟 Features
+
+Feature
+
+Description
+
+🔹 Immersive 3D Canvas
+
+High-performance rendering with Three.js & React Three Fiber.
+
+🔹 Physics Interactions
+
+Realistic gravity and collisions powered by @react-three/cannon (Ammo.js).
+
+🔹 GSAP Animations
+
+Smooth, elastic entry and interaction animations using GSAP.
+
+🔹 Inflated Shader
+
+Custom organic vertex displacement shader for a unique “inflated” look.
+
+🔹 Glassmorphic UI
+
+Modern UI themes with Tailwind CSS, backdrop-filter, and neon outline accents.
+
+🔹 PBR Lighting
+
+Realistic ambient, directional, and spot lights, plus HDR environment reflections via @react-three/drei.
+
+🔹 Orbit & Fly Controls
+
+Seamless camera navigation with orbit, pan, zoom, and fly modes.
+
+🔹 Light & Dark Modes
+
+Toggleable themes—switch between vibrant neon accents or subdued dark styles on the fly.
+
+✨ Screenshots
+
+
+![dark](https://github.com/user-attachments/assets/050a065a-536f-4cb2-9881-61df5d7fa5b5)
+![light](https://github.com/user-attachments/assets/9020c3de-174d-4308-bf71-9062056f278f)
+
+
+💻 Installation & Usage
+
+
+# 1. Clone the repo
+git clone https://github.com/<your-username>/flux-3d-canvas.git
+cd flux-3d-canvas
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+# Open http://localhost:5173 in your browser
+
+For a production build & preview:
+
+npm run build
+npm run serve
+
+⚙️ Configuration
+
+Aliases: @/components → src/components (configured in vite.config.ts)
+
+ESBuild Target: es2022 for optimized modern bundles
+
+Assets: Place models/textures in public/models and public/textures
+
