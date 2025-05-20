@@ -57,9 +57,9 @@ Toggleable themes—switch between vibrant neon accents or subdued dark styles o
 
 # 3. Start the development server
     npm run dev
-# Open http://localhost:5173 in your browser
+# 4. Open http://localhost:5173 in your browser
 
-**For a production build & preview:
+** For a production build & preview:
 
     npm run build
     npm run serve
