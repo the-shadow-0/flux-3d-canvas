@@ -4,30 +4,6 @@
 
 A cutting-edge, browser-based 3D experience featuring physics-driven interactions, GSAP-powered animations, and glassmorphic UI elements with dynamic neon accents. Explore, manipulate, and interact with 3D objects in real time—all in a sleek, immersive interface built on React Three Fiber, Three.js, and Tailwind CSS.
 
-🔖 Table of Contents
-
-🌟 Features
-
-✨ Screenshots
-
-💻 Installation & Usage
-
-⚙️ Configuration
-
-📦 Project Structure
-
-🚀 Scripts
-
-🛠 Tech Stack
-
-🤝 Contributing
-
-📄 License
-
-🌟 Features
-
-Feature
-
 Description
 
 🔹 Immersive 3D Canvas
@@ -87,12 +63,4 @@ For a production build & preview:
 
 npm run build
 npm run serve
-
-⚙️ Configuration
-
-Aliases: @/components → src/components (configured in vite.config.ts)
-
-ESBuild Target: es2022 for optimized modern bundles
-
-Assets: Place models/textures in public/models and public/textures
 
