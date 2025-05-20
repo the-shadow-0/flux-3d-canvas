@@ -49,18 +49,18 @@ Toggleable themes—switch between vibrant neon accents or subdued dark styles o
 
 
 # 1. Clone the repo
-git clone https://github.com/<your-username>/flux-3d-canvas.git
-cd flux-3d-canvas
+    git clone https://github.com/<your-username>/flux-3d-canvas.git
+    cd flux-3d-canvas
 
 # 2. Install dependencies
-npm install
+    npm install
 
 # 3. Start the development server
-npm run dev
+    npm run dev
 # Open http://localhost:5173 in your browser
 
-For a production build & preview:
+**For a production build & preview:
 
-npm run build
-npm run serve
+    npm run build
+    npm run serve
 
