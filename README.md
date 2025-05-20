@@ -1,4 +1,4 @@
-🚀 Flux‑3d‑canvas
+<p align=center>🚀 Flux‑3d‑canvas</p>
 
 ![dark](https://github.com/user-attachments/assets/050a065a-536f-4cb2-9881-61df5d7fa5b5)
 
